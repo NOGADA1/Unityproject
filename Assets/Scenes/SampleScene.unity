@@ -275,8 +275,8 @@ GameObject:
   - component: {fileID: 228658908}
   - component: {fileID: 228658907}
   - component: {fileID: 228658906}
-  m_Layer: 0
-  m_Name: 9-Sliced (8)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,8 +405,8 @@ GameObject:
   - component: {fileID: 323372585}
   - component: {fileID: 323372584}
   - component: {fileID: 323372586}
-  m_Layer: 0
-  m_Name: 9-Sliced (3)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -535,8 +535,8 @@ GameObject:
   - component: {fileID: 351068916}
   - component: {fileID: 351068915}
   - component: {fileID: 351068917}
-  m_Layer: 0
-  m_Name: 9-Sliced (5)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,8 +665,8 @@ GameObject:
   - component: {fileID: 439824439}
   - component: {fileID: 439824438}
   - component: {fileID: 439824440}
-  m_Layer: 0
-  m_Name: 9-Sliced (2)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,8 +795,8 @@ GameObject:
   - component: {fileID: 472171519}
   - component: {fileID: 472171518}
   - component: {fileID: 472171517}
-  m_Layer: 0
-  m_Name: 9-Sliced (7)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1017,8 +1017,8 @@ GameObject:
   - component: {fileID: 555090012}
   - component: {fileID: 555090011}
   - component: {fileID: 555090010}
-  m_Layer: 0
-  m_Name: 9-Sliced (9)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1218,7 +1218,7 @@ Transform:
   m_GameObject: {fileID: 579921867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 1, z: 0}
+  m_LocalPosition: {x: 5.57, y: 4.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1319,7 +1319,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6, y: 0.9}
   m_Direction: 0
 --- !u!1 &586358961
 GameObject:
@@ -1497,7 +1497,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &614423104
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1632,8 +1632,8 @@ GameObject:
   - component: {fileID: 734338243}
   - component: {fileID: 734338242}
   - component: {fileID: 734338244}
-  m_Layer: 0
-  m_Name: 9-Sliced
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,7 +1762,7 @@ GameObject:
   - component: {fileID: 928779865}
   - component: {fileID: 928779864}
   - component: {fileID: 928779866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1892,8 +1892,8 @@ GameObject:
   - component: {fileID: 1143350882}
   - component: {fileID: 1143350881}
   - component: {fileID: 1143350880}
-  m_Layer: 0
-  m_Name: 9-Sliced (11)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2022,8 +2022,8 @@ GameObject:
   - component: {fileID: 1193325336}
   - component: {fileID: 1193325335}
   - component: {fileID: 1193325337}
-  m_Layer: 0
-  m_Name: 9-Sliced (4)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2152,8 +2152,8 @@ GameObject:
   - component: {fileID: 1327971733}
   - component: {fileID: 1327971732}
   - component: {fileID: 1327971731}
-  m_Layer: 0
-  m_Name: 9-Sliced (10)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2282,8 +2282,8 @@ GameObject:
   - component: {fileID: 1765784309}
   - component: {fileID: 1765784308}
   - component: {fileID: 1765784310}
-  m_Layer: 0
-  m_Name: 9-Sliced (1)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2412,7 +2412,7 @@ GameObject:
   - component: {fileID: 1946556283}
   - component: {fileID: 1946556282}
   - component: {fileID: 1946556285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2542,8 +2542,8 @@ GameObject:
   - component: {fileID: 1956621544}
   - component: {fileID: 1956621543}
   - component: {fileID: 1956621545}
-  m_Layer: 0
-  m_Name: 9-Sliced (6)
+  m_Layer: 6
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2668,9 +2668,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 579921869}
   - {fileID: 39281988}
-  - {fileID: 1946556283}
   - {fileID: 586358964}
-  - {fileID: 928779865}
   - {fileID: 614423106}
   - {fileID: 734338243}
   - {fileID: 1765784309}
@@ -2684,3 +2682,5 @@ SceneRoots:
   - {fileID: 1143350882}
   - {fileID: 555090012}
   - {fileID: 1956621544}
+  - {fileID: 928779865}
+  - {fileID: 1946556283}

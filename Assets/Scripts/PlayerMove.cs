@@ -19,9 +19,10 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         //jump
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(rigid.velocity.y) < 0.01f)
+        if (Input.GetButtonDown("Jump") && !anim.GetBool("isJump"))
         {
             rigid.AddForce(Vector2.up * JumpPower, ForceMode2D.Impulse);
+            anim.SetBool("isJump", true);
          }
         //stop speed
         if (Input.GetButtonUp("Horizontal"))
@@ -57,5 +58,17 @@ public class PlayerMove : MonoBehaviour
         {
             rigid.velocity = new Vector2(MaxSpeed*(-1), rigid.velocity.y);
         }
+        //Landing Platform
+        if(rigid.velocity.y < 0)
+        {
+            Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
+            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
+            if (rayHit.collider != null)
+            {
+                if (rayHit.distance < 0.5f)
+                    anim.SetBool("isJump", false);
+            }
+        }
     }
+       
 }
