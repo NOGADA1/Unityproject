@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     Animator anim;
+    Color color_var1 = new Color(1,0,0,0.4f);
     // Start is called before the first frame update
     void Awake()
     {
@@ -70,5 +72,18 @@ public class PlayerMove : MonoBehaviour
             }
         }
     }
-       
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enermy")
+        {
+            OnDamaged(collision.transform.position);
+        }
+    }
+    void OnDamaged(Vector2 targetPos)
+    {
+        gameObject.layer = 9;
+        spriteRenderer.color = color_var1;
+        int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
+        rigid.AddForce(new Vector2(dirc,1)* 9 ,ForceMode2D.Impulse); 
+    }
 }
